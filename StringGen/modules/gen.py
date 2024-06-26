@@ -40,7 +40,7 @@ async def gen_session(
     message, user_id: int, telethon: bool = False, old_pyro: bool = False
 ):
     if telethon:
-        ty = f"ᴛᴇʟᴇᴛʜᴏɴ"
+        ty = f"▪️ᴛᴇʟᴇᴛʜᴏɴ▪️"
     elif old_pyro:
         ty = f"🔸ᴩʏʀᴏɢʀᴀᴍ v1🔸"
     else:
